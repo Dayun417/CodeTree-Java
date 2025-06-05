@@ -1,7 +1,7 @@
 // 입력값
-const A = 1.1278;
-const B = 85.2129;
-const C = 578;
+const A = 2.615854;
+const B = 1.178177;
+const C = 1.221429;
 
 // 반올림해서 소수 셋째 자리까지 출력
 console.log(A.toFixed(3));
