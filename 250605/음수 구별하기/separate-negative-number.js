@@ -1,10 +1,8 @@
-// 입력값
-const num = -13; // ← 이 값만 바꾸면 돼
+const fs = require("fs");
+const input = parseInt(fs.readFileSync("/dev/stdin").toString().trim());
 
-// 그대로 출력
-console.log(num);
+console.log(input);
 
-// 음수일 경우만 "minus" 추가 출력
-if (num < 0) {
+if (input < 0) {
     console.log("minus");
 }
